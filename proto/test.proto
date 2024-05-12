@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package protoblog;
+
+message TestMessageWithoutOptions {
+  int32 number = 1;
+  int32 address = 2;
+  int32 whatf = 3;
+}
